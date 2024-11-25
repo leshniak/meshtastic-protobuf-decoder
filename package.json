@@ -1,0 +1,29 @@
+{
+  "name": "meshtastic-protobuf-decoder",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "leshniak",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@bufbuild/protobuf": "^1.7.2",
+    "@meshtastic/js": "^2.2.23-0",
+    "lodash-es": "^4.17.21",
+    "mqtt": "^5.10.2",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "@buf/meshtastic_protobufs.bufbuild_es": "1.7.2-20240216123215-6b07c41c68c9.1",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.9.3",
+    "@types/pino": "^7.0.4",
+    "tslib": "^2.8.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.3"
+  }
+}
